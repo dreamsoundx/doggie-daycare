@@ -58,14 +58,6 @@ body {
 
 /* ------------------------------ */
 
-.header {
-  margin-bottom: 200px;
-}
-
-.main {
-  flex: 1 1 auto;
-}
-
 [class*='__container'] {
   max-width: 1020px;
   margin: 0 auto;
@@ -119,6 +111,52 @@ body {
   letter-spacing: 0.15px;
 }
 
+.header {
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+  padding: 26px 0px 0px 0px;
+}
+
+.main {
+  flex: 1 1 auto;
+}
+
+.premier {
+  position: relative;
+  padding: 280px 0px 312px 0px;
+  background: url('../assets/mainpage/premier/duotone.jpg') 50% 0 no-repeat;
+}
+.premier__container {
+  display: flex;
+  flex-direction: column;
+}
+.premier__title {
+  max-width: 583px;
+  font-weight: 900;
+  font-size: 56px;
+  line-height: 100%;
+  color: #ffffff;
+}
+
+.premier__title:not(:last-child) {
+  margin-bottom: 48px;
+}
+
+.premier__button {
+  align-self: flex-start;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 200%;
+  letter-spacing: 0.15px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding: 12px 33px;
+  background-color: #f2726f;
+  border-radius: 8px;
+}
+
 .who-we-are {
   padding: 0px 0px 118px 0px;
 }
@@ -126,6 +164,7 @@ body {
   position: relative;
   background-color: #5d62b5;
   border-radius: 40px;
+  margin: -80px auto 0px;
   padding: 97px 87px 1px 87px;
 }
 
@@ -156,11 +195,11 @@ body {
 .who-we-are__container::after {
   content: '';
   position: absolute;
-  top: 0px;
+  top: -110px;
   left: 50%;
   width: 19.7%;
   height: 100%;
-  margin: -110px 0px 0px 38%;
+  margin: 0px 0px 0px 38%;
   background: url('../assets/mainpage/who-we-are/icons/stylize-circles.svg') 0 0
     no-repeat;
 }
