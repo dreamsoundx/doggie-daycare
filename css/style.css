@@ -71,8 +71,6 @@ body {
 }
 
 .titles__label {
-  background: url('../assets/mainpage/promise/icons/title-icon.svg') -3px -2px
-    no-repeat;
   font-weight: 700;
   font-size: 12px;
   line-height: 200%;
@@ -80,12 +78,14 @@ body {
   text-transform: uppercase;
   color: #5d62b5;
   padding: 0px 0px 0px 34px;
+  background: url('../assets/mainpage/promise/icons/title-icon.svg') -3px -2px
+    no-repeat;
 }
 
 .titles__label_white {
+  color: #ffffff;
   background: url('../assets/mainpage/who-we-are/icons/title-icon_white.svg') -3px -2px
     no-repeat;
-  color: #ffffff;
 }
 
 .titles__item {
@@ -97,6 +97,19 @@ body {
 
 .titles__item_white {
   color: #ffffff;
+}
+
+.button {
+  font-weight: 700;
+  font-size: 12px;
+  text-align: center;
+  line-height: 200%;
+  letter-spacing: 0.15px;
+  text-transform: uppercase;
+  color: #ffffff;
+  background: #f2726f;
+  border-radius: 8px;
+  padding: 12px 34px;
 }
 
 .item-title {
@@ -146,16 +159,6 @@ body {
 
 .premier__button {
   align-self: flex-start;
-  font-weight: 700;
-  font-size: 12px;
-  line-height: 200%;
-  letter-spacing: 0.15px;
-  text-align: center;
-  text-transform: uppercase;
-  color: #ffffff;
-  padding: 12px 34px;
-  background-color: #f2726f;
-  border-radius: 8px;
 }
 
 .who-we-are {
@@ -227,7 +230,6 @@ body {
   position: relative;
   margin: 0px 0px -14.2% 0px;
 }
-/* -11.86% */
 
 .who-we-are__image img {
   max-width: 100%;
@@ -237,11 +239,14 @@ body {
 }
 
 .promise {
-  padding: 110px 0px 0px 0px;
+  padding: 110px 0px 122px 0px;
 }
 .promise__container {
 }
 .promise__header {
+}
+
+.promise__header:not(:last-child) {
   margin: 0px 0px 68px 0px;
 }
 
@@ -289,7 +294,7 @@ body {
 }
 
 .services {
-  padding: 110px 0px 113px 0px;
+  padding: 110px 0px 122px 0px;
 }
 
 .services__container {
@@ -322,7 +327,7 @@ body {
   margin: 0px -12px;
 }
 .services__items:not(:last-child) {
-  margin-bottom: 68px;
+  margin-bottom: 67px;
 }
 .services__item {
   flex: 1 1 33.333%;
@@ -332,15 +337,7 @@ body {
 
 .services__button {
   align-self: center;
-  font-weight: 700;
-  font-size: 12px;
-  text-align: center;
-  letter-spacing: 0.15px;
-  text-transform: uppercase;
-  color: #ffffff;
-  background: #f2726f;
-  border-radius: 8px;
-  padding: 18px 24px;
+  padding: 12px 24px;
 }
 
 .item-services {
@@ -381,7 +378,7 @@ body {
 }
 
 .item-services__title:not(:last-child) {
-  margin: 0px 0px 20px 0px;
+  margin-bottom: 20px;
 }
 
 .item-services__text {
