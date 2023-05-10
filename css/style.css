@@ -231,7 +231,9 @@ body {
   margin: 0px 0px -14.2% 0px;
 }
 
-.who-we-are__image img {
+.image-who-we-are {
+}
+.image-who-we-are__item {
   max-width: 100%;
   border-radius: 40px;
   box-shadow: 0px 8px 16px rgba(161, 92, 92, 0.24),
@@ -270,12 +272,15 @@ body {
 .item-promise__icon {
   flex: 0 0 63px;
   height: 63px;
+}
+
+.icon-promise-item {
   display: flex;
   justify-content: center;
   align-items: flex-end;
 }
 
-.item-promise__icon img {
+.icon-promise-item__image {
   max-width: 100%;
   max-height: 63px;
 }
@@ -361,12 +366,15 @@ body {
 .item-services__icon {
   flex: 0 0 63px;
   width: 63px;
+}
+
+.icon-services-item {
   display: flex;
   justify-content: center;
   align-items: flex-end;
 }
 
-.item-services__icon img {
+.icon-services-item__image {
   max-width: 100%;
   max-height: 63px;
 }
@@ -415,7 +423,7 @@ body {
 }
 .impact__content {
   align-self: flex-end;
-  padding: 0px 12px 0px 12px;
+  padding: 0px 12px;
   flex: 0 1 50%;
 }
 .impact__header {
@@ -426,10 +434,12 @@ body {
   padding: 0px 12px;
   margin: -6.7% 0px 0px 0px;
 }
-.impact__image img {
+
+.image-impact__item {
   max-width: 100%;
   border-radius: 40px;
 }
+
 .impact__items {
   display: flex;
   flex-wrap: wrap;
@@ -451,12 +461,15 @@ body {
 .item-impact__icon {
   flex: 0 0 76px;
   height: 76px;
+}
+
+.icon-impact-item {
   display: flex;
   justify-content: center;
   align-items: flex-end;
 }
 
-.item-impact__icon img {
+.icon-impact-item__image {
   max-width: 100%;
   max-height: 76px;
 }
