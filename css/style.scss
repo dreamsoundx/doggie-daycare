@@ -450,8 +450,7 @@ body {
       content: '';
       position: absolute;
       top: 0;
-      right: 50%;
-      transform: translate(87%, 0px);
+      left: 41%;
       width: 68%;
       height: 100%;
       background: url('../assets/impact/img/decor.png') 0 0 / 100% no-repeat;
@@ -480,7 +479,6 @@ body {
   // .impact__header
 
   &__header {
-    // padding: 20px 0px 0px 0px;
     max-width: 420px;
   }
 
@@ -529,7 +527,6 @@ body {
     height: 76px;
     display: flex;
     justify-content: center;
-    align-items: flex-end;
   }
 
   // .item-impact__img
