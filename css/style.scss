@@ -248,42 +248,67 @@ body {
   // .promise__content
 
   &__content {
+    padding: 110px 0px 122px 0px;
   }
 
   // .promise__header
 
   &__header {
+    &:not(:last-child) {
+      margin: 0px 0px 68px 0px;
+    }
   }
 
   // .promise__items
 
   &__items {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px -12px;
+    row-gap: 24px;
   }
 
   // .promise__item
 
   &__item {
+    flex: 1 1 33.333%;
+    padding: 0px 12px;
+    min-width: 260px;
   }
 }
 .item-promise {
+  display: flex;
+  align-items: flex-start;
+  column-gap: 23px;
   // .item-promise__icon
 
   &__icon {
+    flex: 0 0 63px;
+    height: 63px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
   }
 
   // .item-promise__img
 
   &__img {
+    max-width: 100%;
+    max-height: 63px;
   }
 
   // .item-promise__body
 
   &__body {
+    padding: 4px 0px 0px 0px;
   }
 
   // .item-promise__title
 
   &__title {
+    &:not(:last-child) {
+      margin-bottom: 20px;
+    }
   }
 
   // .item-promise__text
