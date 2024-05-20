@@ -114,8 +114,8 @@ body {
   background: #f2726f;
   border-radius: 8px;
   padding: 12px 34px;
-  -webkit-transition: all 0.5s ease 0s;
-  transition: all 0.5s ease 0s;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 .button:hover {
   -webkit-box-shadow: 0 16px 24px 0 rgba(38, 38, 38, 0.2), 0 8px 16px 0 rgba(38, 38, 38, 0.24);
@@ -189,12 +189,9 @@ body {
   content: "";
   top: 100%;
   position: absolute;
-  right: 50%;
+  right: 44.1%;
   width: 51.3%;
   height: 53%;
-  -webkit-transform: translate(11%, 0);
-      -ms-transform: translate(11%, 0);
-          transform: translate(11%, 0);
   margin: -33.7% 0px 0px 0px;
   background: url("../assets/who-we-are/img/decor.png") 0 0/100% no-repeat;
 }
@@ -202,10 +199,10 @@ body {
   content: "";
   position: absolute;
   top: 0;
-  left: 50%;
+  left: 0;
   width: 19.7%;
   height: 100%;
-  margin: -11% 0px 0px 38%;
+  margin: -11% 0px 0px 88%;
   background: url("../assets/who-we-are/icons/stylize-circles.svg") 0 0/100% no-repeat;
 }
 .who-we-are__header {
