@@ -445,7 +445,7 @@ body {
 
   &__content {
     position: relative;
-    padding: 0px 0px 194px 0px;
+    padding: 0px 0px 20.7% 0px;
     &::before {
       content: '';
       position: absolute;
@@ -561,6 +561,56 @@ body {
     line-height: 150%;
     letter-spacing: 0.15px;
     color: #5d62b5;
+  }
+}
+
+.appointment {
+  // .appointment__container
+
+  &__container {
+  }
+
+  // .appointment__content
+
+  &__content {
+    position: relative;
+    margin: -7.7% 0px 0px 0px;
+    padding: 43px 70px;
+    border-radius: 20px;
+    background: #5d62b5;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    row-gap: 24px;
+    column-gap: 24px;
+  }
+
+  // .appointment__left
+
+  &__left {
+    flex: 1 1 auto;
+  }
+
+  // .appointment__right
+
+  &__right {
+    display: flex;
+    align-items: center;
+  }
+
+  // .appointment__text
+
+  &__text {
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 125%;
+    color: #ffffff;
+    max-width: 562px;
+  }
+
+  // .appointment__button
+
+  &__button {
   }
 }
 

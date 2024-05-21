@@ -399,7 +399,7 @@ body {
 }
 .impact__content {
   position: relative;
-  padding: 0px 0px 194px 0px;
+  padding: 0px 0px 20.7% 0px;
 }
 .impact__content::before {
   content: "";
@@ -509,6 +509,45 @@ body {
   color: #5d62b5;
 }
 
+.appointment__content {
+  position: relative;
+  margin: -7.7% 0px 0px 0px;
+  padding: 43px 70px;
+  border-radius: 20px;
+  background: #5d62b5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  row-gap: 24px;
+  -webkit-column-gap: 24px;
+     -moz-column-gap: 24px;
+          column-gap: 24px;
+}
+.appointment__left {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+}
+.appointment__right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.appointment__text {
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 125%;
+  color: #ffffff;
+  max-width: 562px;
+}
 .footer {
   background-color: #794f45;
   padding: 15px;
