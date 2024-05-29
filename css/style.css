@@ -54,7 +54,7 @@ html {
 body {
   line-height: 1;
   color: #4b4b4b;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   background-color: #f5f5f5;
 }
 
@@ -509,7 +509,7 @@ body {
   color: #5d62b5;
 }
 
-.appointment__content {
+.appointment-cta__content {
   position: relative;
   margin: -7.7% 0px 0px 0px;
   padding: 43px 70px;
@@ -528,12 +528,12 @@ body {
      -moz-column-gap: 24px;
           column-gap: 24px;
 }
-.appointment__left {
+.appointment-cta__left {
   -webkit-box-flex: 1;
       -ms-flex: 1 1 auto;
           flex: 1 1 auto;
 }
-.appointment__right {
+.appointment-cta__right {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -541,7 +541,7 @@ body {
       -ms-flex-align: center;
           align-items: center;
 }
-.appointment__text {
+.appointment-cta__text {
   font-weight: 900;
   font-size: 24px;
   line-height: 125%;

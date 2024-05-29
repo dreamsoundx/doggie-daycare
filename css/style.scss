@@ -564,13 +564,13 @@ body {
   }
 }
 
-.appointment {
-  // .appointment__container
+.appointment-cta {
+  // .appointment-cta__container
 
   &__container {
   }
 
-  // .appointment__content
+  // .appointment-cta__content
 
   &__content {
     position: relative;
@@ -585,20 +585,20 @@ body {
     column-gap: 24px;
   }
 
-  // .appointment__left
+  // .appointment-cta__left
 
   &__left {
     flex: 1 1 auto;
   }
 
-  // .appointment__right
+  // .appointment-cta__right
 
   &__right {
     display: flex;
     align-items: center;
   }
 
-  // .appointment__text
+  // .appointment-cta__text
 
   &__text {
     font-weight: 900;
@@ -608,7 +608,7 @@ body {
     max-width: 562px;
   }
 
-  // .appointment__button
+  // .appointment-cta__button
 
   &__button {
   }
