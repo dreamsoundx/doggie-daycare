@@ -91,7 +91,7 @@ body {
 }
 .titles__label_white {
   color: #ffffff;
-  background: url("../assets/who-we-are/icons/title-icon_white.svg") -3px -2px no-repeat;
+  background: url("../assets/about/icons/title-icon_white.svg") -3px -2px no-repeat;
 }
 .titles__item {
   font-weight: 900;
@@ -175,17 +175,17 @@ body {
       align-self: flex-start;
 }
 
-.who-we-are {
+.about {
   padding: 0px 0px 118px 0px;
 }
-.who-we-are__content {
+.about__content {
   position: relative;
   margin: -7.8% 0px 0px 0px;
   border-radius: 40px;
   padding: 97px 87px 1px 87px;
   background-color: #5d62b5;
 }
-.who-we-are__content::before {
+.about__content::before {
   content: "";
   top: 100%;
   position: absolute;
@@ -193,9 +193,9 @@ body {
   width: 51.3%;
   height: 53%;
   margin: -33.7% 0px 0px 0px;
-  background: url("../assets/who-we-are/img/decor.png") 0 0/100% no-repeat;
+  background: url("../assets/about/img/decor.png") 0 0/100% no-repeat;
 }
-.who-we-are__content::after {
+.about__content::after {
   content: "";
   position: absolute;
   top: 0;
@@ -203,29 +203,29 @@ body {
   width: 19.7%;
   height: 100%;
   margin: -11% 0px 0px 88%;
-  background: url("../assets/who-we-are/icons/stylize-circles.svg") 0 0/100% no-repeat;
+  background: url("../assets/about/icons/stylize-circles.svg") 0 0/100% no-repeat;
 }
-.who-we-are__header {
+.about__header {
   position: relative;
   margin: 0px 0px 37px 0px;
 }
-.who-we-are__item {
+.about__item {
   max-width: 583px;
 }
-.who-we-are__text {
+.about__text {
   position: relative;
   line-height: 150%;
   letter-spacing: 0.15px;
   color: #f5f5f5;
 }
-.who-we-are__text:not(:last-child) {
+.about__text:not(:last-child) {
   margin: 0px 0px 57px 0px;
 }
-.who-we-are__image {
+.about__image {
   position: relative;
   margin: 0px 0px -14.2% 0px;
 }
-.who-we-are__img {
+.about__img {
   max-width: 100%;
   border-radius: 40px;
   -webkit-box-shadow: 0px 8px 16px rgba(161, 92, 92, 0.24), 0px 16px 24px rgba(38, 38, 38, 0.2);
@@ -389,6 +389,9 @@ body {
 }
 .item-services__title:not(:last-child) {
   margin-bottom: 20px;
+}
+.appointment__content {
+  padding: 130px 0px 210px 0px;
 }
 .impact {
   position: relative;
