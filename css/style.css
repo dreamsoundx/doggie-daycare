@@ -408,8 +408,8 @@ body {
 }
 .appointment__right {
   -webkit-box-flex: 1;
-      -ms-flex: 1 1 auto;
-          flex: 1 1 auto;
+      -ms-flex: 1 1 42.65%;
+          flex: 1 1 42.65%;
 }
 .form {
   padding: 76px 57px;
@@ -428,6 +428,9 @@ body {
 .form__title {
   text-align: center;
 }
+.form__title:not(:last-child) {
+  margin-bottom: 46px;
+}
 .form__body {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -437,6 +440,9 @@ body {
   margin: 0px -12.22px;
   row-gap: 22px;
 }
+.form__body:not(:last-child) {
+  margin-bottom: 30px;
+}
 .form__item {
   -webkit-box-flex: 1;
       -ms-flex: 1 1 50%;
@@ -445,16 +451,116 @@ body {
   min-width: 180px;
 }
 .form__input {
+  padding: 0px 0px 0px 23px;
+  background: #5d62b5;
+  border: 2px solid rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
   min-height: 48px;
   width: 100%;
+  font-size: 16px;
+  color: rgba(255, 255, 0, 0.8);
+}
+.form__input::-webkit-input-placeholder {
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  color: rgba(255, 255, 255, 0.8);
+  line-height: 150%;
+  letter-spacing: 0.01em;
+}
+.form__input::-moz-placeholder {
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  color: rgba(255, 255, 255, 0.8);
+  line-height: 150%;
+  letter-spacing: 0.01em;
+}
+.form__input:-ms-input-placeholder {
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  color: rgba(255, 255, 255, 0.8);
+  line-height: 150%;
+  letter-spacing: 0.01em;
+}
+.form__input::-ms-input-placeholder {
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  color: rgba(255, 255, 255, 0.8);
+  line-height: 150%;
+  letter-spacing: 0.01em;
+}
+.form__input::placeholder {
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  color: rgba(255, 255, 255, 0.8);
+  line-height: 150%;
+  letter-spacing: 0.01em;
 }
 .form__select {
+  padding: 0px 0px 0px 23px;
+  background: #5d62b5;
+  border: 2px solid rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
   min-height: 48px;
   width: 100%;
+  font-size: 16px;
+  color: rgba(255, 255, 0, 0.8);
+}
+.form__select:invalid {
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  color: rgba(255, 255, 255, 0.8);
+  line-height: 150%;
+  letter-spacing: 0.01em;
+}
+.form__option {
+  color: rgba(255, 255, 0, 0.8);
 }
 .form__textarea {
-  min-height: 180px;
+  padding: 12px 0px 0px 23px;
+  background: #5d62b5;
+  border: 2px solid rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  resize: none;
+  min-height: 182px;
   width: 100%;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  color: rgba(255, 255, 0, 0.8);
+}
+.form__textarea::-webkit-input-placeholder {
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  color: rgba(255, 255, 255, 0.8);
+  line-height: 150%;
+  letter-spacing: 0.01em;
+}
+.form__textarea::-moz-placeholder {
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  color: rgba(255, 255, 255, 0.8);
+  line-height: 150%;
+  letter-spacing: 0.01em;
+}
+.form__textarea:-ms-input-placeholder {
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  color: rgba(255, 255, 255, 0.8);
+  line-height: 150%;
+  letter-spacing: 0.01em;
+}
+.form__textarea::-ms-input-placeholder {
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  color: rgba(255, 255, 255, 0.8);
+  line-height: 150%;
+  letter-spacing: 0.01em;
+}
+.form__textarea::placeholder {
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  color: rgba(255, 255, 255, 0.8);
+  line-height: 150%;
+  letter-spacing: 0.01em;
 }
 .form__button {
   -ms-flex-item-align: end;
