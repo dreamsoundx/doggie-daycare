@@ -459,6 +459,33 @@ body {
   // .appointment__form
 
   &__form {
+    position: relative;
+
+    &::before {
+      position: absolute;
+      z-index: -1;
+      top: 0;
+      left: -19%;
+      margin: 19% 0px 0px 0px;
+      z-index: 0;
+      content: '';
+      width: 57%;
+      height: 100%;
+      background: url('../assets/appointment/icons/stylize-circles.svg') 0 0 /
+        100% no-repeat;
+    }
+    &::after {
+      position: absolute;
+      z-index: -1;
+      top: 0;
+      left: 0;
+      margin: -20% 0px 0px -35.2%;
+      z-index: 0;
+      content: '';
+      width: 152%;
+      height: 146%;
+      background: url('../assets/appointment/img/blob.png') 0 0 / 100% no-repeat;
+    }
   }
 
   // .appointment__right
