@@ -91,7 +91,7 @@ body {
 }
 .titles__label_white {
   color: #ffffff;
-  background: url("../assets/about/icons/title-icon_white.svg") -3px -2px no-repeat;
+  background: url("../assets/about/icons/title-icon-white.svg") -3px -2px no-repeat;
 }
 .titles__item {
   font-weight: 900;
