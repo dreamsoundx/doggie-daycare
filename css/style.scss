@@ -889,7 +889,7 @@ body {
     border-radius: 20px;
     background: #5d62b5;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     flex-wrap: wrap;
     row-gap: 24px;
     column-gap: 24px;
@@ -898,14 +898,12 @@ body {
   // .appointment-cta__left
 
   &__left {
-    flex: 1 1 auto;
+    // flex: 1 1 auto;
   }
 
   // .appointment-cta__right
 
   &__right {
-    display: flex;
-    align-items: center;
   }
 
   // .appointment-cta__text
@@ -921,6 +919,7 @@ body {
   // .appointment-cta__button
 
   &__button {
+    align-self: center;
   }
 }
 
