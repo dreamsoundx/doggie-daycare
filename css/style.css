@@ -308,7 +308,7 @@ body {
   width: 100%;
   height: 100%;
   margin: 0px 0px 0px 11%;
-  background: url("../assets/services/img/decor.png") left -580px no-repeat;
+  background: url("../assets/services/img/blob3.png") left -580px no-repeat;
 }
 .services__header {
   position: relative;
@@ -425,7 +425,7 @@ body {
   margin: -1% 0px 0px 0px;
   width: 82.32%;
   height: 100%;
-  background: url("../assets/appointment/img/blob.png") 0 0/100% no-repeat;
+  background: url("../assets/appointment/img/blob4.png") 0 0/100% no-repeat;
 }
 .appointment__left {
   position: relative;
@@ -713,7 +713,7 @@ body {
   left: 41%;
   width: 68%;
   height: 100%;
-  background: url("../assets/impact/img/blob.png") 0 0/100% no-repeat;
+  background: url("../assets/impact/img/blob6.png") 0 0/100% no-repeat;
 }
 .impact__row {
   position: relative;
