@@ -178,33 +178,34 @@ body {
 .about {
   padding: 0px 0px 118px 0px;
 }
-.about__content {
+.about__container {
   position: relative;
-  margin: -7.8% 0px 0px 0px;
-  border-radius: 40px;
-  padding: 97px 87px 1px 87px;
-  background: #5d62b5;
 }
-.about__content::before {
-  position: absolute;
+.about__container::before {
   content: "";
+  position: absolute;
   top: 100%;
-  left: 0;
-  left: 5%;
-  width: 50.7%;
+  left: 0%;
+  width: 63.33%;
   height: 100%;
-  margin: -33.3% 0px 0px 0px;
+  margin: -42.8% 0px 0px 0px;
   background: url("../assets/about/img/blob.png") 0 0/100% no-repeat;
 }
-.about__content::after {
+.about__container::after {
   content: "";
   position: absolute;
   top: 0;
   left: 0;
-  width: 19.7%;
+  width: 19.14%;
   height: 100%;
-  margin: -11% 0px 0px 88%;
+  margin: -10.3% 0px 0px 86.7%;
   background: url("../assets/about/icons/stylize-circles.svg") 0 0/100% no-repeat;
+}
+.about__content {
+  margin: -7.8% 0px 0px 0px;
+  border-radius: 40px;
+  padding: 97px 87px 1px 87px;
+  background: #5d62b5;
 }
 .about__header {
   position: relative;
