@@ -644,11 +644,23 @@ body {
   // .customers__container
 
   &__container {
+    position: relative;
+    &::before {
+      content: '';
+      position: absolute;
+      top: 100%;
+      left: -58%;
+      width: 102.8%;
+      height: 230%;
+      margin: -149% 0px 0px 0px;
+      background: url('../assets/customers/img/blob5.png') 0 0 / 100% no-repeat;
+    }
   }
 
   // .customers__content
 
   &__content {
+    position: relative;
     padding: 120px 0px 210px 0px;
     display: flex;
     flex-wrap: wrap;
