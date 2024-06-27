@@ -239,6 +239,8 @@ body {
   // .promise__container
 
   &__container {
+    position: relative;
+    z-index: 2;
   }
 
   // .promise__content
@@ -317,25 +319,25 @@ body {
   // .services__container
 
   &__container {
+    position: relative;
+    &::after {
+      position: absolute;
+      content: '';
+      top: 100%;
+      left: 49.6%;
+      width: 137.14%;
+      height: 136.85%;
+      margin: -171.2% 0px 0px 11%;
+      background: url('../assets/services/img/blob3.png') 0 0 / 100% no-repeat;
+    }
   }
 
   // .services__content
 
   &__content {
-    position: relative;
     display: flex;
     flex-direction: column;
     padding: 110px 0px 122px 0px;
-    &::before {
-      position: absolute;
-      content: '';
-      top: 0;
-      left: 50%;
-      width: 100%;
-      height: 100%;
-      margin: 0px 0px 0px 11%;
-      background: url('../assets/services/img/blob3.png') left -580px no-repeat;
-    }
   }
 
   // .services__header
@@ -351,6 +353,7 @@ body {
 
   &__items {
     position: relative;
+    z-index: 2;
     display: flex;
     flex-wrap: wrap;
     row-gap: 26px;
@@ -426,11 +429,38 @@ body {
 }
 
 .appointment {
+  position: relative;
+  z-index: 1;
   background: url('../assets/appointment/img/bg.jpg') 50% 0 / cover no-repeat;
 
   // .appointment__container
 
   &__container {
+    position: relative;
+    &::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: -9%;
+      z-index: 1;
+      margin: 22.7% 0px 0px 0px;
+      width: 31.9%;
+      height: 100%;
+      background: url('../assets/appointment/icons/stylize-circles.svg') 0 0 /
+        100% no-repeat;
+    }
+    &::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: -18.2%;
+      z-index: 2;
+      margin: -1% 0px 0px 0px;
+      width: 85.14%;
+      height: 100%;
+      background: url('../assets/appointment/img/blob4.png') 0 0 / 100%
+        no-repeat;
+    }
   }
 
   // .appointment__content
@@ -442,30 +472,6 @@ body {
     flex-wrap: wrap;
     margin: 0px -15px;
     row-gap: 30px;
-    &::before {
-      content: '';
-      position: absolute;
-      top: 0;
-      left: -7%;
-      z-index: 1;
-      margin: 21.8% 0px 0px 0px;
-      width: 30.9%;
-      height: 100%;
-      background: url('../assets/appointment/icons/stylize-circles.svg') 0 0 /
-        100% no-repeat;
-    }
-    &::after {
-      content: '';
-      position: absolute;
-      top: 0;
-      left: -16%;
-      z-index: 2;
-      margin: -1% 0px 0px 0px;
-      width: 82.32%;
-      height: 100%;
-      background: url('../assets/appointment/img/blob4.png') 0 0 / 100%
-        no-repeat;
-    }
   }
 
   // .appointment__left
@@ -742,22 +748,22 @@ body {
   // .impact__container
 
   &__container {
+    position: relative;
+    &::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 41.4%;
+      width: 66.19%;
+      height: 100%;
+      background: url('../assets/impact/img/blob6.png') 0 0 / 100% no-repeat;
+    }
   }
 
   // .impact__content
 
   &__content {
-    position: relative;
     padding: 0px 0px 20.7% 0px;
-    &::before {
-      content: '';
-      position: absolute;
-      top: 0;
-      left: 41%;
-      width: 68%;
-      height: 100%;
-      background: url('../assets/impact/img/blob6.png') 0 0 / 100% no-repeat;
-    }
   }
 
   // .impact__row
