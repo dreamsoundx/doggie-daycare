@@ -71,6 +71,7 @@ body {
 }
 
 .button {
+  font-family: 'Roboto', sans-serif;
   font-weight: 700;
   font-size: 12px;
   text-align: center;
@@ -893,17 +894,6 @@ body {
     flex-wrap: wrap;
     row-gap: 24px;
     column-gap: 24px;
-  }
-
-  // .appointment-cta__left
-
-  &__left {
-    // flex: 1 1 auto;
-  }
-
-  // .appointment-cta__right
-
-  &__right {
   }
 
   // .appointment-cta__text
